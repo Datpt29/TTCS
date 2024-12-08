@@ -1,0 +1,11 @@
+{$history_stats}
+
+<div class="sidebar-container sidebar-report">
+    <div class="sidebar-description">
+        <form action="" method="post" id="clear_history">
+            <input type="hidden" name="token_id" value="{$token_id}">
+            <input type="hidden" name="clear_history">
+            <a href="#" onclick="event.preventDefault(); document.getElementById('clear_history').submit()">{$lng->clear_history}</a>
+        </form>
+    </div>
+</div>

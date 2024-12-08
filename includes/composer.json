@@ -1,0 +1,8 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.69",
+        "phpmailer/phpmailer": "^6.0",
+        "paypal/rest-api-sdk-php": "^1.13",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

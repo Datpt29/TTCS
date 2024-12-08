@@ -1,0 +1,34 @@
+<div class="welcome-track welcome-items-width" id="track{$id}">
+	<div class="welcome-items-width welcome-pseudo">
+		<a href="{$url}" rel="loadpage"><img src="{$img}" id="song-art{$id}" alt="{$title}"></a>
+		<div class="welcome-player-background">
+			<div class="welcome-player-container">
+				<div class="welcome-player-button">
+					<div class="player-controls">
+						<div id="song-controls{$id}">
+							<div id="jp_container_123" class="jp-audio">
+								<div class="jp-type-single">
+									<div class="jp-gui jp-interface">
+										<div class="jp-progress">
+											<div class="jp-seek-bar">
+												<div class="jp-play-bar"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-track-name="{$name}" data-track-id="{$id}" id="play{$id}" data-track-url="{$track_url}" data-track-format="{$format}" class="track song-play-btn"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="song-titles">
+		<div class="song-title welcome-items-width">
+			<a href="{$url}" id="song-url{$id}" rel="loadpage"><div id="song-name{$id}">{$title}</div></a>
+		</div>
+		<div class="song-author welcome-items-width"><a href="{$author_url}" id="song-author{$id}" rel="loadpage">{$author}</a></div>
+	</div>
+</div>
